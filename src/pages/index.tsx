@@ -10,7 +10,7 @@ export default function Home() {
       </Head>
 
       <img src="https://picsum.photos/200/200" alt="Avatar" className={styles.avatar} />
-      <div className={styles.text}>Hello, I am here!</div>
+      <div className={styles.text}>Hello, I am here and available -- via Actions.</div>
     </div>
   );
 }
