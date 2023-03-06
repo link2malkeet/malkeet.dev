@@ -53,6 +53,6 @@ jobs:
           aws-region: ap-southeast-2
           aws-access-key-id: ${{secrets.AWS_ACCESS_KEY_ID}}
           aws-secret-access-key: ${{secrets.AWS_SECRET_ACCESS_KEY}}
-      - run: aws s3 sync out/ s3://malkeet.dev/
+      - run: aws s3 sync out/ ${{secrets.STATIC_BUCKET_NAME}}
 
   
